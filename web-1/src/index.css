@@ -1,0 +1,291 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+/* Section 1 Start */
+.section-1{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(0deg, #4c2894df, #7c3582d3),
+  url(http://dorsin.react.themesbrand.com/assets/images/bg-home.jpg)
+}
+.section-1 .navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+.section-1 ul li{
+  padding: 5px 10px !important;
+}
+.section-1 ul li a{
+  color: rgb(226, 224, 224) !important;
+}
+.section-1 ul li a:hover{
+  padding: 5px 10px !important;
+ font-weight: 600;
+ transition: 1s;
+ color: white !important;
+ cursor: pointer;
+}
+.section-1 .btn{
+  background-color: #fb3e3e;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 10px !important;
+  width: 150px;
+  font-weight: 600;
+  height: 40px;
+  margin-right: 100px;
+  /* margin-top: 20px; */
+}
+.section-1 .btn:hover{
+  padding: 5px 10px !important;
+}
+
+.section-1 .sec1-body{
+  margin-top: 200px;
+  text-align: center;
+}
+.section-1 .sec1-body h1{
+  font-size: 55px;
+}
+.section-1 .sec1-body p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* Section 1 End */
+
+/* Section 2 start */
+.section-2 .sec2-heading{
+  text-align: center;
+  margin-top: 25px;
+ 
+}
+.section-2 .sec2-heading h1{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 .sec2-heading p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section-2 .sec2-card{
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 90%;
+}
+.section-2 .sec2-card .sec2-circle{
+  text-align: center;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.section-2 .sec2-card .sec2-circle i{
+  font-size: 50px;
+  padding: 10px;
+  color: #fb3e3e;
+  /* box-shadow: 5px 5px 5px 5px gray; */
+  filter: bold(5px 5px 10px gray);
+}
+
+.section-2 .card-text{
+  text-align: center;
+}
+.section-2 .card-text h1{
+  font-size: 20px;
+  padding: 10px;
+}
+.section-2 .card-text p{
+  font-size: 15px;
+  color: rgb(161, 159, 159) !important
+}
+/* Section 2 End */
+
+
+/* Section 3 start */
+.section-3{
+  background-color: #f8fbff;
+  margin-top: 25px;
+}
+.section-3 .sec3-text h5{
+  font-size: 25px;
+}
+.section-3 .sec3-text p{
+  color: rgb(161, 159, 159) !important
+}
+.section-3 .sec3-text ul li{
+  color: rgb(161, 159, 159) !important
+}
+.section-3 .sec3-text button{
+  width: 150px;
+  padding: 15px;
+  background-color: #fb3e3e;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+/* Section 3 End */
+
+/* Section 4 start */
+.section-4 .sec4-text{
+  text-align: center;
+  margin-top: 50px;
+}
+.section-4 .sec4-text h1{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-4 .sec4-text p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section-4 .price-card span{
+  color: #fb3e3e;
+  font-weight: 500;
+}
+.section-4 .price-card{
+  box-shadow: 5px 5px 5px 5px rgb(201, 200, 200);
+  border-radius: 50px;
+  width: 90% !important;
+}
+.section-4 .price-card button{
+  width: 150px;
+  padding: 15px;
+  background-color: #fb3e3e;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+/* Section 4 End */
+
+/* Section 5 start */
+.section-5 .sec5-text{
+  text-align: center;
+  margin-top: 50px;
+}
+.section-5 .sec5-text h1{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-5 .sec5-text p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section-5 .people-card{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(179, 175, 175);
+}
+/* Section 5 End */
+
+/* Section 6 start */
+.section-6 .sec6-text{
+  text-align: center;
+  margin-top: 50px;
+}
+.section-6 .sec6-text h1{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-6 .sec6-text p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section-6 p{
+  color: rgb(161, 159, 159) !important;
+}
+.section-6 span{
+  color: #fb3e3e;
+}
+.section-6 span:hover{
+  color: black;
+}
+.section-6 .blog-card{
+  box-shadow: 5px 5px 10px rgb(179, 175, 175);
+  width: 100%;
+}
+/* Section 6 End */
+
+/* Section 7 Start */
+.section-7 .sec7-text{
+  text-align: center;
+  margin-top: 50px;
+}
+.section-7 .sec7-text h1{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-7 .sec7-text p{
+  color: rgb(161, 159, 159) !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section-7 .sec7-text .contact-text .add{
+  color: #fb3e3e !important;
+}
+.section-7 .detail input{
+   width: 100%;
+   height: 50px;
+   padding: 10px;
+   margin: 10px;
+   border: none;
+   border-bottom: 1px solid gray;
+}
+.section-7  button{
+  width: 150px;
+  padding: 15px;
+  background-color: #fb3e3e;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+.section-7 .touch {
+  background-color: rgb(241, 241, 241);
+}
+.section-7 .touch i{
+  color: gray;
+  font-size: 45px;
+  padding: 5px;
+}
+.section-7 .touch p{
+  font-size: 25px;
+  
+
+}
+/* Section 7 End */
+
+
+@media screen and (max-width: 770px){
+  .section-1 .sec1-body{
+    margin-top: 150px;
+    text-align: center;
+  }
+  .section-1 .sec1-body h1{
+    font-size: 35px;
+  }
+  .section-2 .sec2-heading h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+ 
+}
